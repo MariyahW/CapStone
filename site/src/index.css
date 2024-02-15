@@ -1,68 +1,214 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
+html, body{
+  width: 100%;
+  height: 100%;
+  background-color: #001b2e;
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  justify-content: center;
+  margin: 0%;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+ #root{
+  height: 100%;
+  width: 100%;
+ margin: 0;
+ padding: 0;
+  color: #ADB6C4;
+  
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+.Home {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #001b2e;
+  color: #f7e8a4;
+  height: auto;
+  width: 100%;
+  height: 95%;
+  justify-content: center;
+  line-height: 1.5;
+  margin-top: 3%;
+ 
 }
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+ .nav-bar {
+  width: 100%;
+  height: 10%;
+  margin: 0;
+  padding: 0%;
+  background-color: #adb6c4;
+  
+  display: flex;
+  justify-content: space-evenly;
+
+ 
+padding: 0%;
+ 
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.nav-bar a {
+  color: #294c60;
+  font-size: large;
+  height: 100%;
+  text-decoration: none;
+  
+}
+.navList{
+  margin: 25%;
+  
+}
+.dropdown-menu{
+
+}
+
+about-section {
+  width: 80%;
+  height: 50%;
+  font-size: large;
+  margin-top: 25%;
+  position: relative;
+  top: 15%;
+  background-color: #001b2e;
+}
+name-image img {
+    width: 95%;
+  border: #001b2e 5px ridge;
+  border-radius: 30%;
+  transition-property: border-color;
+    transition-duration: 1s;
+}
+
+#lowerHalf{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #294c60;
+}
+#projects {
+    display: flex;
+    justify-content: center;
+  width: 50%;
+}
+#blogEntry {
+  width: 100%;
+  background-color: #f7e8a4;
+  color: #001B2E;
+
+}
+.projectBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+}
+.projectBox img{
+    /* border: #f7e8a4 5px solid; */
+    height: 100%;
+    width: 80%;
+    
+}
+.blogPost{
+  margin-top: 10%;
+    /* display: flex;
+    flex-wrap: wrap; */
+    width: 75%;
+    height: 100%;
+    background-color: #294c60;
+    color:#001B2E;
+    text-align: center;
+}
+.blogPost>h1 {
+  color: #f5cb5c;
+  text-align: center;
+}
+.blogPost>h2{
+  color: #ADB6C4;
+}
+#mainBlog{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    background-color: #294c60;
+    width: 100%;
+    height: 70%;
+  
+    
+}
+#mainBlog a{
+    color: #f7e8a4;
+    
+    
+}
+#mainBlog a:hover{
+    cursor: crosshair;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    
+}
+.form{
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  background-color:#294C60;
+  border: #001B2E 3px ridge;
+  box-shadow: #f7e8a4 10px 10px 10px;
+}
+
+
+
+contact-me{
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  height: 75%;
+  justify-content: center;
+  background-color: #294c60;
+  border: #001B2E solid 5px;
+  border-radius: 10%;
+ 
+  
+}
+#top-image  {
+  position: absolute;
+  margin-top: 5%;
+  width: 100%;
+  height:50%;
+ 
+}
+
+#blur {
+  background-image: url(./images/coding_image.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  filter: blur(4px);
+}
+
+#name {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+#self {
+
+
+  height: 60%;
+  border: #001B2E 2 px solid;
+  border-radius: 50%;
+
+
+}
+
+.PDF{
+  display: flex;
 }
