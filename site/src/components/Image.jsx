@@ -1,11 +1,12 @@
 import React from 'react'
-import image from "../visuals/imageOfSelf.jpg"
-
+import bg from "../visuals/coding_image.jpg";
+import photo from "../visuals/imageOfSelf.jpg"
 export default function Image() {
   return (
-    <div>
-        <img id="self" src={image} alt="Image of Mariyah" />
+ <div >
 
-    </div>
+<img id="self" src={photo} alt="Image of Mariyah" />
+  
+ </div>
   )
 }

@@ -18,7 +18,8 @@ export default function Nav() {
       <Link to="/blog">
         <div>Exclusively Mariyah </div>
       </Link>
-
+      <Link><div>See My Work</div></Link>
+        
         
       </div>
     </>
