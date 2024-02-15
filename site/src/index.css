@@ -27,6 +27,7 @@ html, body{
   justify-content: center;
   line-height: 1.5;
   margin-top: 3%;
+  background-image: ;
  
 }
  .nav-bar {
@@ -99,6 +100,7 @@ name-image img {
     flex-wrap: wrap;
     justify-content: center;
     width: 50%;
+    background-color: #294c60;
 }
 .projectBox img{
     /* border: #f7e8a4 5px solid; */
@@ -157,6 +159,7 @@ form{
   background-color:#294C60;
   border: #001B2E 3px ridge;
   box-shadow: #f7e8a4 10px 10px 10px;
+
 }
 
 
@@ -174,21 +177,18 @@ contact-me{
   
 }
 #top-image  {
-  position: absolute;
-  margin-top: 5%;
-  width: 100%;
-  height:50%;
  
-}
+  margin-top: 5%;
 
-#blur {
-  background-image: url(./images/coding_image.jpg);
+
+  background-image: url(./visuals/coding_image.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   height: 100%;
   width: 100%;
   filter: blur(4px);
+  
 }
 
 #name {
@@ -200,9 +200,9 @@ contact-me{
   text-align: center;
 }
 #self {
-
-
-  height: 60%;
+z-index: 10;
+margin-top: -10%;
+width: 350px;
   border: #001B2E 2 px solid;
   border-radius: 50%;
 
