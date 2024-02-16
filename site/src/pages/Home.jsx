@@ -6,7 +6,7 @@ import Image from "../components/Image";
 import Footer from '../components/Footer';
 import photo from "../visuals/imageOfSelf.jpg"
 
-export default function Home() {
+export default function Home(props) {
 
 
    
@@ -18,7 +18,7 @@ export default function Home() {
         <img id="self" src={photo} alt="Image of Mariyah" />
         <About />
         
-        <Skills />
+        <Skills skills={props.skills}/>
         <Education />
         <Footer />
     </div>

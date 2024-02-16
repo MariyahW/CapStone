@@ -12,13 +12,16 @@ import Lead from "./pages/Lead";
 
 function App() {
   const [count, setCount] = useState(0)
+  const skills=
+  ["NodeJS", ,"JavaScript", "HTML", "Bootstrap", "MongoDB", "TypeScript", "C", "Python", "CSS", "React", "Git", "SQL", "CI/CD", "JSON", "AJAX", "AXIOS", "Express", "cPanel", "Gap Analysis", "Agile", "Data Analysis", "Flask", "SCRUM"]
 
   return (
     
       <div className='App'>
       <Nav />
+      
     <Routes>
-        <Route path="/" element={<Home/>}/>
+        <Route path="/" element={<Home skills={skills}/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/resume" element={<Resume/>}/>
         <Route path="/blog" element={<Blog/>}/>

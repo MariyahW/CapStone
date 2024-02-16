@@ -35,18 +35,7 @@ html body{
   background-color: #001b2e;
 }
 
-#blogMain{
-  margin-top: 2%;
-  margin-bottom: 10%;
-}
 
-
-#blogEntry {
-  width: 100%;
-  background-color: #f7e8a4;
-  color: #001B2E;
-
-}
 .projectBox{
     display: flex;
     flex-wrap: wrap;
@@ -54,14 +43,18 @@ html body{
     width: 50%;
     background-color: #294c60;
 }
+#blogMain{
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
 
 .blogPost{
-  margin-top: 10%;
-    /* display: flex;
-    flex-wrap: wrap; */
+  margin-top: 5%;
+  margin-bottom: 5%;
+    margin-left: 12.5%;
     width: 75%;
     height: 100%;
-    background-color: #294c60;
+    background-color: #ADB6C4;
     color:#001B2E;
     text-align: center;
 }

@@ -2,12 +2,14 @@ import React from 'react'
 
 export default function Back() {
   return (
-    <div><h1>
+    <div className='blogPost'>
+    
+    <h1>
     Exploring the Intricate World of Backend Development: Handling
     Complexity, Processing Big Data and Seamless Integration
   </h1>
 
-  <p style="margin: 5%; background-color: #adb6c4; line-height: 2">
+  <p >
     Imagine a bustling city with skyscrapers reaching towards the heavens,
     traffic flowing smoothly, and people going about their daily lives.
     But what keeps this city running seamlessly behind the scenes? It's
@@ -106,7 +108,7 @@ export default function Back() {
     smoothly. The power of backend development is truly remarkable, and it
     continues to shape the digital landscape in ways we can only imagine.
   </p>
-  <h4 style="text-align: left; color: #adb6c4;">Mariyah Watson - 11/17/2023</h4>
+  <h4 >Mariyah Watson - 11/17/2023</h4>
 </div>
   )
 }

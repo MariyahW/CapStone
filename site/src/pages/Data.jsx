@@ -2,11 +2,11 @@ import React from 'react'
 
 export default function Data() {
   return (
-    <>
-     <h2>Why Data Analytics is Critical to Your Business's Growth</h2>
+    <div className='blogPost'>
+     <h1>Why Data Analytics is Critical to Your Business's Growth</h1>
   
  
-  
+  <p>
     A Tale of Two Competitors Imagine two companies in the same industry,
     offering similar products and services. Company A is a traditional
     firm, relying on experience, intuition, and conventional wisdom to
@@ -74,7 +74,9 @@ export default function Data() {
     and watch your business flourish like Company B. <br></br> <br></br> The journey towards
       data-driven success starts now, and the rewards are waiting for those
       willing to take the plunge.
-  </>
+      </p>
+      <h4>Mariyah Watson - 11/1/2023</h4>
+  </div>
   
     
 )
