@@ -20,6 +20,7 @@ function App() {
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/resume" element={<Resume/>}/>
         <Route path="/blog" element={<Blog/>}/>
+        <Route path="/blog/:post" element={<Blog/>}/>
         
       </Routes>
       </div>

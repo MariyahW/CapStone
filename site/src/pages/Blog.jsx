@@ -1,4 +1,9 @@
 import React from 'react';
+import {useState, useEffect} from 'react';
+import { useParams } from 'react-router-dom';
+import Back from "./Back";
+import Data from "./Data";
+import Lead from "./Lead";
 import backend from '../visuals/coding_warp.png';
 import lead from "../visuals/action.png";
 import data from "../visuals/data.png";
@@ -14,8 +19,14 @@ import {
   MDBBtn
 } from 'mdb-react-ui-kit';
 
-export default function Blog() {
+export default function Blog(props) {
+
+  const params = useParams();
+  const blog =params.blog;
+ 
   return (
+
+
     <div id="blogMain">
     <MDBRow className='row-cols-1 row-cols-md-3 g-4'>
       <MDBCol>
@@ -31,7 +42,7 @@ export default function Blog() {
             Imagine a bustling city with skyscrapers reaching towards the heavens, traffic flowing smoothly, and people going about their daily lives. But what keeps this city running seamlessly behind the scenes? It's the infrastructure, the power grid, the transportation systems, and the intricate network of communication that ties everything together. In the world of software development, the backend plays a similar role. It is the backbone of any application, the hidden force that enables all the magic to happen. In this blog post, we will delve into the power of backend development, exploring its importance, capabilities, and the remarkable impact it has on the digital landscape.
             </MDBCardText>
           </MDBCardBody>
-          <MDBBtn href='/'>Read More!</MDBBtn>
+          <MDBBtn href={Back}>Read More!</MDBBtn>
         </MDBCard>
       </MDBCol>
       <MDBCol>
@@ -50,7 +61,7 @@ export default function Blog() {
             But why does this happen?
             </MDBCardText>
           </MDBCardBody>
-          <MDBBtn href='#'>Read More!</MDBBtn>
+          <MDBBtn href={Data}>Read More!</MDBBtn>
         </MDBCard>
       </MDBCol>
       <MDBCol>
@@ -66,7 +77,7 @@ export default function Blog() {
             Imagine a world where leaders not only inspire their teams but also empower them to achieve financial success. In today's fast-paced, competitive business environment, strong leadership is more important than ever to ensure not only the survival of a company but also its growth and prosperity. The ability to lead effectively can make or break an organization, and it is often the difference between a business that thrives and one that flounders. In this blog post, we will explore the importance of leadership in achieving financial success, examining the key attributes of effective leaders and how they can be developed and nurtured within an organization.
             </MDBCardText>
           </MDBCardBody>
-          <MDBBtn href='#'>Read More!</MDBBtn>
+          <MDBBtn href={Lead}>Read More!</MDBBtn>
         </MDBCard>
       </MDBCol>
     </MDBRow>
