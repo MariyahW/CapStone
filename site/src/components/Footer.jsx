@@ -6,7 +6,7 @@ export default function Footer() {
     <div id='Footer'>
 
 
-<Link to={resume} target="_blank" download>Download Full Resume</Link>
+<Link id='fLink' to={resume} target="_blank" download>Download Full Resume</Link>
 
         
     </div>
