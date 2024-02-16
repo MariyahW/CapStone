@@ -9,8 +9,7 @@ import photo from "../visuals/imageOfSelf.jpg"
 export default function Home() {
 
 
-    // style= {{ 
-    //     backgroundImage: `url(${bg})`, width:'100%', filter:'blur(4px)', height:'500px', opacity:"50%"}}
+   
   return (
     <div className='Home'  >
        

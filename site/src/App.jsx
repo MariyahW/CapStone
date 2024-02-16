@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import {Route, Routes} from 'react-router-dom';
-import Nav from "./components/Nav";
+import Nav from "./components/Navv";
 import './App.css'
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
