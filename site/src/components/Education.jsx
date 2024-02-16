@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Education() {
   return (
-    <div>
+    <div  className="projectBox">
              <h3 >Education</h3>
     <br></br>
     <p>

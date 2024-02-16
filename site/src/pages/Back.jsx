@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function back() {
+export default function Back() {
   return (
     <div><h1>
     Exploring the Intricate World of Backend Development: Handling
