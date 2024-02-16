@@ -87,6 +87,12 @@ Add additional notes about how to deploy this on a live system.
 - [Express](https://expressjs.com/) - Server Framework
 - [React](https://vuejs.org/) - Web Framework
 - [NodeJs](https://nodejs.org/en/) - Server Environment
+- [Vite]() -React Library
+- [React-Bootstrap]() - Styling
+- [MD-Bootstrap]() - Styling
+- [ReactPDF]() -Render PDF 
+- []
+
 
 ## ✍️ Authors <a name = "authors"></a>
 
@@ -96,6 +102,4 @@ Add additional notes about how to deploy this on a live system.
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+
