@@ -27,8 +27,6 @@ html body{
   justify-content: center;
   line-height: 1.5;
   margin-top: 3%;
-  background-image: ;
- 
 }
  .nav-bar {
   width: 100%;
@@ -140,22 +138,13 @@ name-image img {
 #mainBlog a:hover{
     cursor: crosshair;
 }
-form{
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    width: 500px;
-    height: 500px;
-    align-items: center;
-    
-}
+
 .form{
-  margin-top: 1%;
-  display: flex;
-  justify-content: center;
+  margin-top: 5%;
+  
   background-color:#294C60;
-  border: #001B2E 3px ridge;
-  box-shadow: #f7e8a4 10px 10px 10px;
+  border: #001B2E 1px ridge;
+  box-shadow: #f7e8a4 5px 5px 25px;
 
 }
 
