@@ -17,6 +17,7 @@ export default function Home() {
         <h1 id='name'>Mariyah Watson</h1>
         <img id="self" src={photo} alt="Image of Mariyah" />
         <About />
+        
         <Skills />
         <Education />
         <Footer />

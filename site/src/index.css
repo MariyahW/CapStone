@@ -28,62 +28,19 @@ html body{
   line-height: 1.5;
   margin-top: 3%;
 }
- .nav-bar {
-  width: 100%;
-  height: 10%;
-  margin: 0;
-  padding: 0%;
-  background-color: #adb6c4;
-  display: flex;
-  justify-content: space-evenly;
-padding: 0%;
- 
-}
 
-.nav-bar a {
-  color: #294c60;
-  font-size: large;
-  height: 100%;
-  text-decoration: none;
-  
-}
-.navList{
-  margin: 25%;
-  
-}
-.dropdown-menu{
-
-}
-
-about-section {
-  width: 80%;
-  height: 50%;
-  font-size: large;
-  margin-top: 25%;
-  position: relative;
-  top: 15%;
+.about-section {
+  margin-top: 2%;
+  margin-bottom: 2%;
   background-color: #001b2e;
 }
-name-image img {
-    width: 95%;
-  border: #001b2e 5px ridge;
-  border-radius: 30%;
-  transition-property: border-color;
-    transition-duration: 1s;
+
+#blogMain{
+  margin-top: 2%;
+  margin-bottom: 10%;
 }
 
-#lowerHalf{
-  width: 100%;
-  height: 40%;
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #294c60;
-}
-#projects {
-    display: flex;
-    justify-content: center;
-  width: 50%;
-}
+
 #blogEntry {
   width: 100%;
   background-color: #f7e8a4;
@@ -97,12 +54,7 @@ name-image img {
     width: 50%;
     background-color: #294c60;
 }
-.projectBox img{
-    /* border: #f7e8a4 5px solid; */
-    height: 100%;
-    width: 80%;
-    
-}
+
 .blogPost{
   margin-top: 10%;
     /* display: flex;
@@ -120,24 +72,7 @@ name-image img {
 .blogPost>h2{
   color: #ADB6C4;
 }
-#mainBlog{
-    display: flex;
-    flex-wrap: wrap;
-    /* justify-content: center; */
-    background-color: #294c60;
-    width: 100%;
-    height: 70%;
-  
-    
-}
-#mainBlog a{
-    color: #f7e8a4;
-    
-    
-}
-#mainBlog a:hover{
-    cursor: crosshair;
-}
+
 
 .form{
   margin-top: 5%;
@@ -145,37 +80,8 @@ name-image img {
   background-color:#294C60;
   border: #001B2E 1px ridge;
   box-shadow: #f7e8a4 5px 5px 25px;
-
 }
 
-
-
-contact-me{
-  display: flex;
-  flex-wrap: wrap;
-  width: 75%;
-  height: 75%;
-  justify-content: center;
-  background-color: #294c60;
-  border: #001B2E solid 5px;
-  border-radius: 10%;
- 
-  
-}
-#top-image  {
- 
-  margin-top: 5%;
-
-
-  background-image: url(./visuals/coding_image.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  height: 100%;
-  width: 100%;
-  filter: blur(4px);
-  
-}
 
 #name {
   position: absolute;
@@ -197,4 +103,9 @@ width: 350px;
 
 .PDF{
   display: flex;
+}
+
+#Footer{
+  margin-top: 3%;
+  margin-bottom: 5%;
 }
