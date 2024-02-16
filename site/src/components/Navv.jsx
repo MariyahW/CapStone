@@ -17,7 +17,7 @@ export default function Navv() {
                 <Nav.Link href="contact">Contact Me</Nav.Link>
                 <Nav.Link href="resume">Resume</Nav.Link>
                 <Nav.Link href="blog">Exclusively Mariyah</Nav.Link>
-                <Nav.Link to={resume} target="_blank" download>Download Full Resume</Nav.Link>
+                <Link id="downloadNav" to={resume} target="_blank" download>Download Full Resume</Link>
                 <NavDropdown title="See My Work" id="basic-nav-dropdown">
                  
                   <NavDropdown.Item href="https://github.com/MariyahW" target="_blank">Github</NavDropdown.Item>

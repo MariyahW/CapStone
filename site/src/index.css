@@ -113,4 +113,10 @@ color: #f7e8a4;
 border: #294c60;
 font-size: xx-large;
 }
+#downloadNav{
+  text-decoration: none;
+  color: grey;
+  font-size: medium;
+  margin-top: 1.3%;
+}
 
