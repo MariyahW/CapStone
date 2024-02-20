@@ -34,7 +34,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-In this project I will be refactoring a webpage that was primarily html and css to become a full stack webpage. This webpage will be deployed at mariyahwatson.com. 
+In this project I will be refactoring a webpage that was primarily html and css to become a full stack application. This application will be deployed at mariyahwatson.com. This is the frontend repo the backend repo can be found at [Backend](https://github.com/MariyahW/CapStoneBackend)
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
