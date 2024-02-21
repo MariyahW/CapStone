@@ -82,7 +82,7 @@ properly with database connection
 Explain what these tests test and why
 
 ```
-npm run start
+npm run dev
 ```
 
 will return to utilize localhost:5173

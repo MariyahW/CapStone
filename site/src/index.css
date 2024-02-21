@@ -85,10 +85,11 @@ html body{
 }
 
 #name {
-  position: absolute;
-  top: 30%;
+  /* I moved the name so the commented out test is no longer needed prior it was placed on top of an image */
+  /* position: absolute;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
   width: 100%;
   text-align: center;
 }

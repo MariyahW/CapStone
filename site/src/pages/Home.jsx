@@ -14,8 +14,9 @@ export default function Home(props) {
     <div className='Home'  >
        
         <Image />
-        <h1 id='name'>Mariyah Watson</h1>
+       
         <img id="self" src={photo} alt="Image of Mariyah" />
+         <h1 id='name'>Mariyah Watson</h1>
         <About />
         
         <Skills skills={props.skills}/>
