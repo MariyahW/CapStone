@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Footer() {
   return (
     <div id='Footer'>
-
+{/* Link to download resume in footer of homepage */}
 
 <Link id='fLink' to={resume} target="_blank" download>Download Full Resume</Link>
 

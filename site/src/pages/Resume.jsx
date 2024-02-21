@@ -3,8 +3,9 @@ import {Document, Page, pdfjs} from "react-pdf";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
+
 export default function Resume() {
-    const resume = '../../public/resume.pdf';
+    const resume = '/resume.pdf';
     return (
      <div className='PDF'>
      

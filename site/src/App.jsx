@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+
 import {Route, Routes} from 'react-router-dom';
 import Nav from "./components/Navv";
 import './App.css'
@@ -11,15 +11,15 @@ import Data from "./pages/Data";
 import Lead from "./pages/Lead";
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
   const skills=
-  ["NodeJS", ,"JavaScript", "HTML", "Bootstrap", "MongoDB", "TypeScript", "C", "Python", "CSS", "React", "Git", "SQL", "CI/CD", "JSON", "AJAX", "AXIOS", "Express", "cPanel", "Gap Analysis", "Agile", "Data Analysis", "Flask", "SCRUM"]
+  ["NodeJS","JavaScript", "HTML", "Bootstrap", "MongoDB", "TypeScript", "C", "Python", "CSS", "React", "Git", "SQL", "CI/CD", "JSON", "AJAX", "AXIOS", "Express", "cPanel", "Gap Analysis", "Agile", "Data Analysis", "Flask", "SCRUM"]
 
   return (
     
       <div className='App'>
       <Nav />
-      
+      {/* Route paths */}
     <Routes>
         <Route path="/" element={<Home skills={skills}/>}/>
         <Route path="/contact" element={<Contact/>}/>

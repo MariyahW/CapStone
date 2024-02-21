@@ -14,7 +14,7 @@ export default function Contact() {
   const[oID, setID]= useState('');
 
   const axiosGetData = async(_id)=>{
-    await axios.get(`http://localhost:3000/contact/${_id}`)
+    await axios.get(`https://node-app-mariyahw.onrender.com/contact/${_id}`)
     .then(res=>{
       setName(res.data.name);
       setEmail(res.data.email);
@@ -25,7 +25,7 @@ export default function Contact() {
   }
 
   const axiosPostData = async(options)=>{
-    await axios.post("http://localhost:3000/contact", options)
+    await axios.post("https://node-app-mariyahw.onrender.com/contact", options)
     .then(res=>{
       setMessage(<p className="success">{res.data}</p>)
       
@@ -35,10 +35,11 @@ export default function Contact() {
   }
 
   const axiosPutData = async(options, _id)=>{
-    await axios.put(`http://localhost:3000/contact/${_id}`, options)
+    await axios.put(`https://node-app-mariyahw.onrender.com/contact/${_id}`, options)
     .then(res=>{
       console.log(res.data);
       setMessage(<p className="success">Your information has been successfully updated</p>)
+      setID('')
     })
   }
 

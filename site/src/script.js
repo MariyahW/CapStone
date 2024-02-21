@@ -1,3 +1,5 @@
+// This page was the bases on which I made the calls in the Contact Component. It is not used though
+
 let form = document.getElementById("formAdd");
 let update = document.getElementById("toUpdate");
 let name = document.getElementById("name1");
