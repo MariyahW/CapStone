@@ -6,6 +6,9 @@ export default function Education() {
              <h3 >Education</h3>
     <br></br>
     <p>
+    <i><b>WGU</b></i> Bachelors of Science, Software Engineering,
+      July 2025
+      <br />
       <i><b>PerScholas</b> sponsored by Google</i> Software Engineering,
       Feb 2024
       <br />
