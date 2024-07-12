@@ -13,7 +13,7 @@ export default function Education() {
       Feb 2024
       <br />
       <i><b>Harvard University</b> sponsored by Verizon</i> Certification: Software Engineering,
-      May 2024
+      Dec 2024
       <br />
       <i><b>Charter University</b></i>
       Masters, Business Management, Dec 2022 <br />
